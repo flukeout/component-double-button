@@ -28,12 +28,12 @@
   -webkit-box-sizing: border-box;
 }
 
-:host #leftbutton {
+:host :active #leftbutton {
  border-right: 2px solid rgba(0,0,0,.1);
 }
 
-:host #rightbutton {
-  border-left: 2px solid rgba(255,255,255,.1);
+:host :active #rightbutton {
+  border-left: 2px solid rgba(0,0,0,.1);
 }
 
 :host .overlay {
